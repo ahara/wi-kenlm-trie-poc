@@ -51,6 +51,7 @@ set(EXE_LIST
   fragment
   build_binary
   kenlm_benchmark
+  kenlm_ttable
 )
 
 set(LM_LIBS kenlm kenlm_util ${Boost_LIBRARIES} ${THREADS})
